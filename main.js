@@ -32,4 +32,5 @@ window.addEventListener('resize', () => {
   primaryNav.removeAttribute('data-visible');
   primaryHeader.removeAttribute('data-overlay');
   document.body.style.overflow = 'scroll';
+  document.body.style.overflowX = 'hidden';
 });
