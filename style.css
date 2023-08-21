@@ -246,6 +246,10 @@ body {
   height: 2.5rem;
 }
 
+.header-icon:is(:hover, :active, :focus) {
+  opacity: 0.6;
+}
+
 .heading-img {
   display: flex;
   justify-content: center;
